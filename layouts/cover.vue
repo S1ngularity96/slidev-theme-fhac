@@ -1,11 +1,12 @@
 <template>
     <div class="fhlayout cover">
-        <h1>{{title}}</h1>
-        <h2>{{subtitle}}</h2>
-        <br>
-        <h4>{{referent}}</h4>
-        <h4>{{date}}</h4>
-        <slot></slot>
+        <main>
+            <h1>{{ title }}</h1>
+            <h2>{{ subtitle }}</h2>
+            <br>
+            <h4>{{ referent }}</h4>
+            <h4>{{ date }}</h4>
+        </main>
     </div>
 </template>
 

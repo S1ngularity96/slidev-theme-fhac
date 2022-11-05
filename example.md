@@ -23,6 +23,11 @@ header: Table of contents
   - Layer 2
     - Layer 3
 
+---
+layout: section
+---
+# Section
+## Lorem ipsum dolor sit amet
 
 ---
 header: Default Page
