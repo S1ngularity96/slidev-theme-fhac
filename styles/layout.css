@@ -1,0 +1,105 @@
+:root {
+  --theme-accent-color: #00b5ad;
+  --layout-padding: 2em;
+  --main-padding: 1.2em;
+}
+
+/* base */
+h1 {
+  color: var(--theme-accent-color);
+  font-size: 48px;
+}
+
+ul {
+  margin-left: var(--main-padding);
+  list-style-type: disc;
+}
+
+li ul {
+  margin-left: 1em;
+}
+
+
+/* layout specific */
+
+/* headlines */
+.fhlayout.two-cols .headline,
+.fhlayout.toc .headline,
+.fhlayout.default .headline {
+  border-bottom: 1px black solid;
+}
+
+html.dark .fhlayout.two-cols .headline,
+html.dark .fhlayout.toc .headline,
+html.dark .fhlayout.default .headline {
+  border-color: whitesmoke;
+}
+
+
+
+.fhlayout {
+  padding: var(--layout-padding);
+}
+
+.fhlayout main {
+  padding: var(--main-padding);
+}
+
+/* layout two-cols */
+.fhlayout.two-cols main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-cols--left,
+.two-cols--right {
+  width: 48%
+}
+
+/* layout end */
+.fhlayout.end {
+  position: absolute;
+  bottom: 8em;
+}
+
+
+/* global components */
+header {
+  position: absolute;
+  top: 32px;
+  right: 0;
+}
+
+
+/* logo fh aachen */
+header img {
+  width: 48px;
+}
+
+html.dark header img {
+  display: none;
+}
+
+
+footer.fhlayout {
+  padding: 0 var(--layout-padding) 0 var(--layout-padding);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+footer .content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px black solid;
+}
+
+html.dark footer .content {
+  border-color: whitesmoke;
+}
