@@ -31,7 +31,7 @@ faculty: Computer Science
 ## Layouts
 
 ### `cover`
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/001.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/001.png?raw=true)
 
 ### `toc`
 
@@ -44,11 +44,11 @@ subheader: <text>
 ---
 ```
 
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/002.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/002.png?raw=true)
 
 ### `section`
 
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/003.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/003.png?raw=true)
 
 ### `default`
 
@@ -61,9 +61,9 @@ subheader: <text>
 ---
 ```
 
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/004.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/004.png?raw=true)
 
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/005.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/005.png?raw=true)
 
 ### `two-cols`
 
@@ -76,10 +76,10 @@ subheader: <text>
 ---
 ```
 
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/006.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/006.png?raw=true)
 
 ### `end`
-![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/007.png)
+![](https://github.com/S1ngularity96/slidev-theme-fhac/blob/main/images/007.png?raw=true)
 
 
 ## Contributing
