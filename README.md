@@ -46,6 +46,10 @@ subheader: <text>
 
 ![](images/002.png)
 
+### `section`
+
+![](images/003.png)
+
 ### `default`
 
 Can be configured with: 
@@ -57,9 +61,9 @@ subheader: <text>
 ---
 ```
 
-![](images/003.png)
-
 ![](images/004.png)
+
+![](images/005.png)
 
 ### `two-cols`
 
@@ -72,10 +76,10 @@ subheader: <text>
 ---
 ```
 
-![](images/005.png)
+![](images/006.png)
 
 ### `end`
-![](images/006.png)
+![](images/007.png)
 
 
 ## Contributing

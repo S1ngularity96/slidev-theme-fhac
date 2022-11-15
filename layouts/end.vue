@@ -5,9 +5,9 @@
             <br>
             <p>{{ referent }}</p>
             <p>{{ studentnr }}</p>
-            <p>{{ email }}</p>
+            <a :href="`mailto:${email}`">{{email}}</a>
             <br>
-            <p>www.fh-aachen.de</p>
+            <a href="http://www.fh-aachen.de">www.fh-aachen.de</a>
     </div>
 </template>
 

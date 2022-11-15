@@ -7,7 +7,7 @@
 /* base */
 h1 {
   color: var(--theme-accent-color);
-  font-size: 48px;
+  @apply text-6xl mb-4 -ml-[0.05em];
 }
 
 ul {
@@ -46,6 +46,13 @@ html.dark .fhlayout.default .headline {
 }
 
 /* layout two-cols */
+.fhlayout.section main,
+.fhlayout.cover main {
+  position: absolute;
+  width: 85%;
+  top: 10em;
+}
+
 .fhlayout.two-cols main {
   display: flex;
   justify-content: space-between;
@@ -93,11 +100,25 @@ footer {
   font-size: 0.8em;
 }
 
+footer .content.content--isCover{
+  justify-content: flex-start;
+}
+
+footer .content.content--isCover p:not(:last-child)::after{
+  margin: 0 .5em 0 .5em;
+  content: "|";
+}
+
 footer .content {
   position: relative;
   display: flex;
   justify-content: space-between;
   border-top: 1px black solid;
+}
+
+footer a,
+header a{
+  text-transform: uppercase;
 }
 
 html.dark footer .content {
