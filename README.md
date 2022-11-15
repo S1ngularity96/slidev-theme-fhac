@@ -1,9 +1,9 @@
-# slidev-theme-fhac
+# slidev-theme-fhaachen
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-fhac?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-fhac)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-fhaachen?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-fhaachen)
 
 
-A fhac theme for [Slidev](https://github.com/slidevjs/slidev).
+A FH Aachen theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ## Install
 
