@@ -1,5 +1,8 @@
 # slidev-theme-fhac
 
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-fhac?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-fhac)
+
+
 A fhac theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ## Install
