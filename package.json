@@ -1,6 +1,7 @@
 {
   "name": "slidev-theme-fhaachen",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "A Slidev theme for FH University Aachen",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -25,6 +26,12 @@
     "@slidev/cli": "^0.36.10",
     "playwright-chromium": "^1.27.1"
   },
+  
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/S1ngularity96/slidev-theme-fhac.git"
+    },
+  
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "both",

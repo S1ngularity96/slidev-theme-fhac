@@ -1,5 +1,5 @@
 <template>
     <header>
-        <img src="assets/logo.jpg" alt="fhlogo">
+        <img src="/logo.jpg" alt="fhlogo">
     </header>
 </template>
